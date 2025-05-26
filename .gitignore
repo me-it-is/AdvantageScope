@@ -2,7 +2,7 @@
 /dist
 /bundles
 /ffmpeg
-/src/licenses.json
+#/src/licenses.json
 /ThirdPartyLicenses.txt
 /eng.traineddata.gz
 /runOwletDownload.js
