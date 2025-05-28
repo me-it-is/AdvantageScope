@@ -19,7 +19,7 @@ try {
     }
     var cache = process.env.EMSCRIPTENCACHE;
     exec(
-      `emcc ${inPath} -o ${outPath} -sEXPORTED_FUNCTIONS=_run --cache ${cache},_malloc -sALLOW_MEMORY_GROWTH -O3`,
+      `emcc ${inPath} -o ${outPath} --cache ${cache} -sEXPORTED_FUNCTIONS=_run ,_malloc -sALLOW_MEMORY_GROWTH -O2`,
       (error, stdout, stderr) => {
         console.log(stdout);
         console.error(stderr);
