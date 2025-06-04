@@ -188,12 +188,7 @@
     },
     "linux": {
       "target": [
-        "AppImage",
-        "snap",
-        "flatpak",
-        "deb",
-        "rpm",
-        "pacman"
+       "dir"
       ],
       "icon": "icons/app/app-icons-linux",
       "category": "Utility"
