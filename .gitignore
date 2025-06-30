@@ -7,7 +7,7 @@
 /lite/ipk/build
 /lite/ipk/*.ipk
 /ffmpeg
-/src/licenses.json
+#/src/licenses.json
 /ThirdPartyLicenses.txt
 /eng.traineddata.gz
 /runOwletDownload.js
