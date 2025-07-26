@@ -16,6 +16,8 @@ export async function run(
   });
 
   const bufferIn = Module._malloc(data.length);
+  console.log(Module);
+  console.log(Module.HEAPU8);
   Module.HEAPU8.set(data, bufferIn);
   const bufferOut = Module._run(bufferIn, data.length);
 
