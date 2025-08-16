@@ -122,3 +122,7 @@ build/*
 *.pbxuser
 *.mode1v3
 xcuserdata
+
+# rust wasm
+**/pkg
+**/target
